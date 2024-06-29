@@ -1,31 +1,84 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f9e6f2; /* Pale pink background */
+  margin: 0;
+}
+
 .App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #ffccdd; /* Light pink header */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #333;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff6699; /* Soft pink link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: 2px solid #ff99bb;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+legend {
+  font-weight: bold;
+  color: #ff6699;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #ff6699;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
+  border: 2px solid #ff99bb;
+  border-radius: 8px;
+  background-color: #fff0f5;
+  color: #333;
+}
+
+code {
+  background-color: #fff0f5;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+pre {
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+  background: #ffe6f0; /* Slightly darker pink for the code background */
+  overflow-x: auto;
+  color: #333;
 }
 
 @keyframes App-logo-spin {

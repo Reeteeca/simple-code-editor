@@ -1,0 +1,65 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 10px;
+  background-color: #090b0b;
+  margin: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 70px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(152, 59, 128, 0.1);
+  text-align: center;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  width: 100%;
+  border: 2px solid #87cefa;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+legend {
+  font-weight: bold;
+  color: #4682b4;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 15px;
+  font-weight: bold;
+  color: #4682b4;
+}
+
+textarea {
+  width: calc(100% - 20px);
+  height: 400px;
+  padding: 15px;
+  font-family: 'Fira Code', monospace;
+  font-size: 16px;
+  border: 2px solid #87cefa;
+  border-radius: 12px;
+  background-color: #abdada;
+  color: #333;
+  resize: vertical;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #4682b4;
+}
+
+textarea::selection {
+  background: #4c878f;
+}
+
+.App-link {
+  color: #4682b4;
+  text-decoration: none;
+  font-weight: bold;
+}
